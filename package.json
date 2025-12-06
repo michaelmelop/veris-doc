@@ -1,0 +1,25 @@
+{
+  "name": "veris-doc",
+  "version": "1.0.0",
+  "description": "Documentación Veris - Sistema de gestión integral",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "docsify serve .",
+    "dev": "docsify serve . --port 3000",
+    "init": "docsify init .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "documentation",
+    "docsify",
+    "veris"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "docsify-cli": "^4.4.4"
+  }
+}
